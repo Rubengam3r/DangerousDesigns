@@ -1,0 +1,96 @@
+{
+  "id": "dangerous-designs",
+  "name": "dangerous-designs",
+  "title": "Dangerous Designs",
+  "description": "This is an adventure set in Criticla Roles' world of Exandria on the continent of Wildemount. This module was originally desigend to take characters from 1st to 3rd level but was adjusted to go from 3rd to 5th level.",
+  "version": "1.0.0",
+  "minimumCoreVersion": "0.8.6",
+  "compatibleCoreVersion": "10",
+  "compatibility": {
+    "minimum": "0.8.6",
+    "verified": "10",
+    "maximum": "10"
+  },
+  "author": "Rubengam3r",
+  "authors": [
+    {
+      "name": "Rubengam3r"
+    }
+  ],
+  "packs": [
+    {
+      "name": "actors",
+      "label": "Dangerous Designs",
+      "path": "/packs/actors.db",
+      "entity": "Actor",
+      "type": "Actor",
+      "system": "dnd5e"
+    },
+    {
+      "name": "items",
+      "label": "Dangerous Designs",
+      "path": "/packs/items.db",
+      "entity": "Item",
+      "type": "Item",
+      "system": "dnd5e"
+    },
+    {
+      "name": "journals",
+      "label": "Dangerous Designs",
+      "path": "/packs/journals.db",
+      "entity": "JournalEntry",
+      "type": "JournalEntry"
+    },
+    {
+      "name": "macros",
+      "label": "Dangerous Designs",
+      "path": "/packs/macros.db",
+      "entity": "Macro",
+      "type": "Macro"
+    },
+    {
+      "name": "maps",
+      "label": "Dangerous Designs",
+      "path": "/packs/maps.db",
+      "entity": "Scene",
+      "type": "Scene"
+    },
+    {
+      "name": "playlists",
+      "label": "Dangerous Designs",
+      "path": "/packs/playlists.db",
+      "entity": "Playlist",
+      "type": "Playlist"
+    },
+    {
+      "name": "rolltables",
+      "label": "Dangerous Designs",
+      "path": "/packs/rolltables.db",
+      "entity": "RollTable",
+      "type": "RollTable"
+    }
+  ],
+  "esmodules": [
+    "./scripts/init.js"
+  ],
+  "dependencies": [
+    {
+      "name": "scene-packer",
+      "manifest": "https://github.com/League-of-Foundry-Developers/scene-packer/releases/latest/download/module.json",
+      "type": "module"
+    }
+  ],
+  "relationships": {
+    "requires": [
+      {
+        "id": "scene-packer",
+        "type": "module",
+        "manifest": "https://github.com/League-of-Foundry-Developers/scene-packer/releases/latest/download/module.json"
+      }
+    ]
+  },
+  "url": "https://github.com/Rubengam3r/DangerousDesigns",
+  "manifest": "",
+  "download": "",
+  "manifestPlusVersion": "1.2.0"
+}
