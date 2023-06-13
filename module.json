@@ -2,14 +2,14 @@
   "id": "dangerous-designs",
   "name": "dangerous-designs",
   "title": "Dangerous Designs",
-  "description": "This is an adventure set in Criticla Roles' world of Exandria on the continent of Wildemount. This module was originally desigend to take characters from 1st to 3rd level but was adjusted to go from 3rd to 5th level.",
+  "description": "This is an adventure set in Critical Roles' world of Exandria on the continent of Wildemount. This module was originally designed to take characters from 1st to 3rd level but was adjusted to go from 3rd to 5th level.",
   "version": "1.0.0",
-  "minimumCoreVersion": "0.8.6",
-  "compatibleCoreVersion": "10",
+  "minimumCoreVersion": "10",
+  "compatibleCoreVersion": "11",
   "compatibility": {
-    "minimum": "0.8.6",
-    "verified": "10",
-    "maximum": "10"
+    "minimum": 10",
+    "verified": "11",
+    "maximum": "11"
   },
   "author": "Rubengam3r",
   "authors": [
