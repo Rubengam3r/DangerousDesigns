@@ -1,17 +1,7 @@
 {
-  "id": "dangerous-designs",
-  "name": "dangerous-designs",
   "title": "Dangerous Designs",
   "description": "This is an adventure set in Critical Roles' world of Exandria on the continent of Wildemount. This module was originally designed to take characters from 1st to 3rd level but was adjusted to go from 3rd to 5th level.",
   "version": "1.0.0",
-  "minimumCoreVersion": "10",
-  "compatibleCoreVersion": "11",
-  "compatibility": {
-    "minimum": "10",
-    "verified": "11",
-    "maximum": "11"
-  },
-  "author": "Rubengam3r",
   "authors": [
     {
       "name": "Rubengam3r"
@@ -90,7 +80,15 @@
     ]
   },
   "url": "https://github.com/Rubengam3r/DangerousDesigns",
-  "manifest": "",
-  "download": "",
-  "manifestPlusVersion": "1.2.0"
+  "manifest": "https://github.com/Rubengam3r/DangerousDesigns/releases/latest/download/module.json",
+  "download": "https://github.com/Rubengam3r/DangerousDesigns/archive/refs/tags/1.0.0.zip",
+  "id": "dangerous-designs",
+  "compatibility":{
+	  "minimum": "10",
+	  "verified": "11",
+	  "maximum": "11"
+  },
+  "name": "dangerous-designs",
+  "minimumCoreVersion": "10",
+  "compatibleCoreVersion": "11"
 }
