@@ -17,7 +17,7 @@
    * Set to the following to disable:
    *   const additionalJournals = [];
    */
-  const additionalJournals = [];
+  const additionalJournals = ['Source Material'];
   /**
    * additionalMacros will automatically be imported. Each name must match exactly and are case sensitive.
    * Set to the following to disable:
@@ -30,25 +30,25 @@
    * Set to the following to disable:
    *   const creaturePacks = [];
    */
-  const creaturePacks = [];
+  const creaturePacks = [`${moduleName}.actors`, 'dnd5e.monsters'];
   /**
    * journalPacks is a list of compendium packs to look in for Journals by name (in prioritised order).
    * Set to the following to disable:
    *   const journalPacks = [];
    */
-  const journalPacks = [];
+  const journalPacks = [`${moduleName}.journals`];
   /**
    * macroPacks is a list of compendium packs to look in for Macros by name (in prioritised order).
    * Set to the following to disable:
    *   const macroPacks = [];
    */
-  const macroPacks = [];
+  const macroPacks = [`${moduleName}.macros`];
   /**
    * playlistPacks is a list of compendium packs to look in for Playlists by name (in prioritised order).
    * Set to the following to disable:
    *   const playlistPacks = [];
    */
-  const playlistPacks = [];
+  const playlistPacks = [`${moduleName}.playlists`];
   /**
    * additionalModulePacks is a list of modules whose compendium packs can be looked in for entities by name (in prioritised order).
    * Enter just the "name" of the module/s or system/s you want to be considered.
@@ -64,7 +64,7 @@
    * Set to the following to disable:
    *   const additionalModulePacks = [];
    */
-  const additionalModulePacks = ["dangerous-designs"];
+  const additionalModulePacks = ['baileywiki-maps-premium', 'baileywiki-maps-premium-towns', 'dnd5e', 'dangerous-designs'];
 
   Hooks.once('scenePackerReady', ScenePacker => {
     // Initialise the Scene Packer with your adventure name and module name
