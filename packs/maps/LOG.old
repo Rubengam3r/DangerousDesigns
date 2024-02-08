@@ -1,0 +1,8 @@
+2024/02/08-14:07:38.911 90cc Recovering log #695
+2024/02/08-14:07:38.922 90cc Delete type=0 #695
+2024/02/08-14:07:38.922 90cc Delete type=3 #691
+2024/02/08-14:16:27.576 7a9c Level-0 table #702: started
+2024/02/08-14:16:27.576 7a9c Level-0 table #702: 0 bytes OK
+2024/02/08-14:16:27.581 7a9c Delete type=0 #700
+2024/02/08-14:16:27.592 7a9c Manual compaction at level-0 from '!scenes!0un4z2gowAEztlxo' @ 72057594037927935 : 1 .. '!scenes.walls!tVVykIURWtJhX5m5.zxtJ2FzwH2TQqF2a' @ 0 : 0; will stop at (end)
+2024/02/08-14:16:27.592 7a9c Manual compaction at level-1 from '!scenes!0un4z2gowAEztlxo' @ 72057594037927935 : 1 .. '!scenes.walls!tVVykIURWtJhX5m5.zxtJ2FzwH2TQqF2a' @ 0 : 0; will stop at (end)
