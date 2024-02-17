@@ -1,15 +1,12 @@
-2024/02/08-14:07:38.859 7efc Recovering log #668
-2024/02/08-14:07:38.871 7efc Delete type=0 #668
-2024/02/08-14:07:38.871 7efc Delete type=3 #666
-2024/02/08-14:16:27.491 7a9c Level-0 table #674: started
-2024/02/08-14:16:27.505 7a9c Level-0 table #674: 266 bytes OK
-2024/02/08-14:16:27.510 7a9c Delete type=0 #672
-2024/02/08-14:16:27.510 7a9c Manual compaction at level-0 from '!folders!1ESYxh935Ft9cmNQ' @ 72057594037927935 : 1 .. '!items.effects!k7wRvVIt1VdsX2Sz.MPTSHB7RLEJR1Y4c' @ 0 : 0; will stop at (end)
-2024/02/08-14:16:27.526 7a9c Manual compaction at level-1 from '!folders!1ESYxh935Ft9cmNQ' @ 72057594037927935 : 1 .. '!items.effects!k7wRvVIt1VdsX2Sz.MPTSHB7RLEJR1Y4c' @ 0 : 0; will stop at '!items.effects!ZKxBAt9D7t7ggh1v.Dj9eOgfiwKudRVTA' @ 576 : 0
-2024/02/08-14:16:27.526 7a9c Compacting 1@1 + 1@2 files
-2024/02/08-14:16:27.535 7a9c Generated table #675@1: 32 keys, 25264 bytes
-2024/02/08-14:16:27.535 7a9c Compacted 1@1 + 1@2 files => 25264 bytes
-2024/02/08-14:16:27.540 7a9c compacted to: files[ 0 0 1 0 0 0 0 ]
-2024/02/08-14:16:27.540 7a9c Delete type=2 #670
-2024/02/08-14:16:27.540 7a9c Delete type=2 #674
-2024/02/08-14:16:27.559 7a9c Manual compaction at level-1 from '!items.effects!ZKxBAt9D7t7ggh1v.Dj9eOgfiwKudRVTA' @ 576 : 0 .. '!items.effects!k7wRvVIt1VdsX2Sz.MPTSHB7RLEJR1Y4c' @ 0 : 0; will stop at (end)
+2024/02/17-08:44:14.163 6504 Recovering log #677
+2024/02/17-08:44:14.163 6504 Recovering log #703
+2024/02/17-08:44:14.178 6504 Delete type=0 #677
+2024/02/17-08:44:14.178 6504 Delete type=2 #701
+2024/02/17-08:44:14.178 6504 Delete type=0 #703
+2024/02/17-08:44:14.178 6504 Delete type=2 #704
+2024/02/17-08:44:14.178 6504 Delete type=3 #676
+2024/02/17-12:00:37.200 51cc Level-0 table #706: started
+2024/02/17-12:00:37.200 51cc Level-0 table #706: 0 bytes OK
+2024/02/17-12:00:37.209 51cc Delete type=0 #704
+2024/02/17-12:00:37.236 51cc Manual compaction at level-0 from '!folders!1ESYxh935Ft9cmNQ' @ 72057594037927935 : 1 .. '!items.effects!k7wRvVIt1VdsX2Sz.MPTSHB7RLEJR1Y4c' @ 0 : 0; will stop at (end)
+2024/02/17-12:00:37.237 51cc Manual compaction at level-1 from '!folders!1ESYxh935Ft9cmNQ' @ 72057594037927935 : 1 .. '!items.effects!k7wRvVIt1VdsX2Sz.MPTSHB7RLEJR1Y4c' @ 0 : 0; will stop at (end)

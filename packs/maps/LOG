@@ -1,3 +1,9 @@
-2024/02/08-14:16:33.348 90cc Recovering log #701
-2024/02/08-14:16:33.360 90cc Delete type=0 #701
-2024/02/08-14:16:33.360 90cc Delete type=3 #699
+2024/02/17-12:01:10.833 4fcc Recovering log #732
+2024/02/17-12:01:10.846 4fcc Delete type=0 #732
+2024/02/17-12:01:10.846 4fcc Delete type=3 #705
+2024/02/17-12:01:10.846 4fcc Delete type=3 #727
+2024/02/17-12:08:13.530 51cc Level-0 table #737: started
+2024/02/17-12:08:13.530 51cc Level-0 table #737: 0 bytes OK
+2024/02/17-12:08:13.537 51cc Delete type=0 #735
+2024/02/17-12:08:13.538 51cc Manual compaction at level-0 from '!scenes!0un4z2gowAEztlxo' @ 72057594037927935 : 1 .. '!scenes.walls!tVVykIURWtJhX5m5.zxtJ2FzwH2TQqF2a' @ 0 : 0; will stop at (end)
+2024/02/17-12:08:13.538 51cc Manual compaction at level-1 from '!scenes!0un4z2gowAEztlxo' @ 72057594037927935 : 1 .. '!scenes.walls!tVVykIURWtJhX5m5.zxtJ2FzwH2TQqF2a' @ 0 : 0; will stop at (end)

@@ -1,3 +1,9 @@
-2024/02/08-14:16:33.289 90cc Recovering log #670
-2024/02/08-14:16:33.302 90cc Delete type=0 #670
-2024/02/08-14:16:33.302 90cc Delete type=3 #668
+2024/02/17-12:01:10.758 4fcc Recovering log #702
+2024/02/17-12:01:10.769 4fcc Delete type=0 #702
+2024/02/17-12:01:10.769 4fcc Delete type=3 #675
+2024/02/17-12:01:10.769 4fcc Delete type=3 #697
+2024/02/17-12:08:13.476 51cc Level-0 table #707: started
+2024/02/17-12:08:13.476 51cc Level-0 table #707: 0 bytes OK
+2024/02/17-12:08:13.481 51cc Delete type=0 #705
+2024/02/17-12:08:13.481 51cc Manual compaction at level-0 from '!actors!1NzS24PgXdGAm63h' @ 72057594037927935 : 1 .. '!folders!oLZrsUPYcmUQsYSC' @ 0 : 0; will stop at (end)
+2024/02/17-12:08:13.481 51cc Manual compaction at level-1 from '!actors!1NzS24PgXdGAm63h' @ 72057594037927935 : 1 .. '!folders!oLZrsUPYcmUQsYSC' @ 0 : 0; will stop at (end)
